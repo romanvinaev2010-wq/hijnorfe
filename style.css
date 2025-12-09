@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding:0px ;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    background-color: #36bbce;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top:30px ;
+    margin-bottom:30pxpx ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    background-color: rgb(25, 0, 255);
+    padding:40px ;
+    width: 400px;
+    margin:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: gold;
+    display: flex;
+    padding:0px ;
+    justify-content: center;
+}
+
+footer a {
+    margin-right:0px ;
+}
+
+footer p {
+    font-size: 24px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
